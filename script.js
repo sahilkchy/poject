@@ -1,5 +1,3 @@
-// NSIT Chatbot JavaScript (Final Colourful + Proper Break Version)
-
 const config = {
   bot_title: 'NSIT Support Assistant',
   welcome_message: "Hello! 👋 I'm your NSIT Bihta Assistant. How can I help you today?"
@@ -159,7 +157,7 @@ For specific department contacts, please visit the official website`
     response: `🎓 **Student Portal Information**
 
 **How to Access Student Portal**
-1. Visit: https://student.nsit.in/login
+1. Visit: <a herf="https://student.nsit.in/login">Student Portal</a>
 2. Navigate to Student Login/Portal section
 3. Enter your credentials (ID and Password)
 4. Access your dashboard
@@ -551,3 +549,4 @@ function initChatbot() {
 
 
 document.addEventListener('DOMContentLoaded', initChatbot);
+
