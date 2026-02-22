@@ -382,10 +382,20 @@ NSIT Bihta Assistant is an intelligent web-based chatbot designed to provide qui
 
 👨‍💻 **Developer Information**
 
-Name: Raunak  
+Name: Raunak Chaudhary 
+Role: Frontend Developer & Student Innovator  
+Specialization: Web Development & UI Design  
+Skills: HTML, CSS, JavaScript, Tailwind CSS 
+
+━━━━━━━━━━━━━━━━━━━━━━
+
+👨‍💻 **Developer Information**
+
+Name: Sahil Chaudhary  
 Role: Frontend Developer & Student Innovator  
 Specialization: Web Development & UI Design  
 Skills: HTML, CSS, JavaScript, Tailwind CSS  
+
 
 ━━━━━━━━━━━━━━━━━━━━━━
 
@@ -538,5 +548,6 @@ function initChatbot() {
     btn.onclick = () => handleUserMessage(btn.innerText);
   });
 }
+
 
 document.addEventListener('DOMContentLoaded', initChatbot);
